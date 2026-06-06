@@ -1,0 +1,9 @@
+Ensure Python 3.8+ and the following dependencies installed:
+pip install torch torchvision numpy scikit-learn pillow matplotlib
+
+To run the automated interpolation audit pipeline between two target image sources, execute:
+python src/main_audit.py \
+  --first data/digit_0.png \
+  --second data/digit_4.png \
+  --load_dnn models/trained_resnet.pth \
+  --load_svm models/trained_svm.pkl
