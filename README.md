@@ -26,6 +26,4 @@ When evaluating image transitions (e.g., smoothly interpolating an image from di
 ├── src/
 │   ├── main_audit.py        # Core engine running the ResNet-SVM inference and plotting
 │   └── utils_prepare.py     # Image preprocessing, inversion, and normalization utils
-├── docs/
-│   └── answers.md           # Theoretical analysis and research question write-up
 └── requirements.txt         # Dependency configurations
